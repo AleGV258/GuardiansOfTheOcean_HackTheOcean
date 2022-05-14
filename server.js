@@ -47,4 +47,6 @@ app.get('/HackTheOcean', (req, res) => {
 });
 
 /* Levantar el servidor en el puerto 5000 */
-app.listen(5000, () => { console.log('Servidor Web Iniciado'); });
+app.listen(port, () => {
+    console.log(`API listening at http://localhost:${port}`);
+  });

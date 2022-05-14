@@ -1,12 +1,12 @@
 const db = require('../services/db');
 
 function getMultiple() {
-    const data = db.query(`SELECT * FROM animal`);
+    const data = db.query(`SELECT * FROM AnimalesMarinos`);
     return data
 }
 
 function getAnimal(animal){
-    const data = db.query(`SELECT * FROM animal where name='${animal}'`)
+    const data = db.query(`SELECT * FROM AnimalesMarinos where Nombre='${animal}'`)
     return data
 }
 

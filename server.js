@@ -24,6 +24,10 @@ const corsOptions = {
 };
 app.use(cors(corsOptions));
 
+app.get('/', (req, res) => {
+    res.json({message: 'API lista para consultas'});
+  });
+
 /* Prueba de conexión con la Base de Datos */
 app.get('/HackTheOcean', (req, res) => {
     sql = 'SELECT * FROM AnimalesMarinos;';

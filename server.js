@@ -15,7 +15,8 @@
 
 const express = require('express'); /* Express para la creación de la API */
 const app = express(); /* Creación de la Aplicación */
-const sqlite3 = require('sqlite3'); /* SQLite3 para la creación y manejo de la Base de Datos */
+const port = 3000 || process.env.PORT;
+const animalesRouter = require('./app/routes/animales');
 
 /* Creación y/o conexión con la Base de Datos */
 const db = new sqlite3.Database("./public/database/Animales.db", (err) => {

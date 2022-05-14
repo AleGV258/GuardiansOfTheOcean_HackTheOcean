@@ -18,6 +18,12 @@ const app = express(); /* Creación de la Aplicación */
 const port = 3000 || process.env.PORT;
 const animalesRouter = require('./app/routes/animales');
 
+const cors = require("cors");
+const corsOptions = {
+    origin: "http://localhost:8081"
+};
+app.use(cors(corsOptions));
+
 /* Prueba de conexión con la Base de Datos */
 app.get('/HackTheOcean', (req, res) => {
     sql = 'SELECT * FROM AnimalesMarinos;';

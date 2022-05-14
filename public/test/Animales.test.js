@@ -9,6 +9,7 @@ describe("Pruebas de unidad AnimalesService", () => {
     test("2: Acceso a los datos del animal 'Trucha Apache' (verificación 'UbicacioPreliminar')", () => {
         const animal = "Trucha Apache";
         const datosAnimal = AnimalesService.getAnimal(animal);
+        console.log(datosAnimal)
         expect(datosAnimal[0].UbicacionPreliminar).toBe('Arizona, Estados Unidos');
     });
 

@@ -8,6 +8,10 @@ Los océanos conforman más del 70% de la superficie de la Tierra, sin embargo, 
 
 Dado el desconocimiento que existe sobre este hábitat y, por ende, una indiferencia hacia su conservación o incluso aprendizaje, se propone crear un sitio web que proporcione al usuario información relacionada con los animales que actualmente se encuentran en peligro de extinción con el objetivo de enseñar a la vez que se crea conciencia sobre el cuidado y preservación de dichas especies.
 
+# Objetivo del Backend
+
+El servicio de backend tiene como propósito dotar de información al frontend acerca de las diferentes especies marinas en peligro de extinción. Para ello, se propone una base de datos SQLite que contenga información detallada sobre dichas especies, información que estará disponible para su consulta por medio de una REST API que permitirá extraer la información de un animal en específico a la vez.
+
 # Base de datos (SQLite)
 
 Agregar texto...
@@ -42,9 +46,8 @@ Para llevarlo a cabo, se requiere realizar en principio pruebas de unidad que no
 
 El desarrollo de esta solución se hará siguiendo la siguiente estructura de proyecto:
 
-```
-	Codigo mermaid:
-	graph TD
+```mermaid
+graph TD
     subgraph BackEnd
     server.js-->routes/animales.js;
     routes/animales.js-->services/animales.js;

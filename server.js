@@ -18,6 +18,12 @@ const app = express(); /* Creación de la Aplicación */
 const port = process.env.PORT || 3000;
 const animalesRouter = require('./public/app/routes/Animales');
 
+const cors = require("cors");
+const corsOptions = {
+    origin: "http://localhost:8081"
+};
+app.use(cors(corsOptions));
+
 app.get('/', (req, res) => {
     res.json({message: 'API lista para consultas'});
   });

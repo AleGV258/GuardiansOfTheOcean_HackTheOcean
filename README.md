@@ -14,6 +14,20 @@ Dado el desconocimiento que existe sobre este hábitat y, por ende, una indifere
 
 El servicio de backend tiene como propósito dotar de información al frontend acerca de las diferentes especies marinas en peligro de extinción. Para ello, se propone una base de datos SQLite que contenga información detallada sobre dichas especies, información que estará disponible para su consulta por medio de una REST API que permitirá extraer la información de un animal en específico a la vez.
 
+# Despliegue de la aplicación
+
+1. Clona este repositorio en tu máquina:
+
+`git clone ttps://github.com/AleGV258/GuardiansOfTheOcean_HackTheOcean_Back`
+
+2. Estando dentro de la carpeta, ejecuta el siguiente comando para instalar las dependencias:
+
+`npm install`
+
+3. Por último, ejecuta el servidor con el siguiente comando:
+
+`npm run server`
+
 # Base de datos (SQLite)
 
 El objetivo de la base de datos es almacenar información relacionada con las diferentes especies en peligro de extinción, las cuales serán expuestas por medio de una REST API. Para ello, se propone la siguiente tabla de datos:

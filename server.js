@@ -15,7 +15,7 @@
 
 const express = require('express'); /* Express para la creación de la API */
 const app = express(); /* Creación de la Aplicación */
-const port = 3000 || process.env.PORT;
+const port = process.env.PORT || 3000;
 const animalesRouter = require('./public/app/routes/Animales');
 
 const cors = require("cors");

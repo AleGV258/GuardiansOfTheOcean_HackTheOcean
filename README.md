@@ -34,15 +34,7 @@ El servicio de backend tiene como propósito dotar de información al frontend a
 
 El objetivo de la base de datos es almacenar información relacionada con las diferentes especies en peligro de extinción, las cuales serán expuestas por medio de una REST API. Para ello, se propone la siguiente tabla de datos:
 
-| Campo | Tipo de dato |
-| -- | -- |
-| IdAnimal | Integer (autogenerado) |
-| Nombre | String |
-| DescripcionAnimal | String |
-| UbicacionPreliminar | String |
-| EstadoDePeligro | String |
-| CausaDePeligro | String |
-| LinkImagen | String |
+![image](https://user-images.githubusercontent.com/60676355/168496086-042c188e-b2db-4b06-b94c-b45d80b96faf.png)
 
 La siguiente es una lista de animales que han sido incluidos en dicha base de datos para su consulta por medio de la API (para poder ver toda la información de cada uno de ellos, consultar directamente la API):
 

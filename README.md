@@ -71,7 +71,11 @@ graph TD
 
 - **services/animales.js:** Servicio que nos provee de funciones cuyo objetivo es realizar consultas SQL a la base de datos. Contiene dos funciones que acceden a la DB y devuelven la información solicitada por los dos endpoints de la API (este módulo es el que se testea en las Pruebas de Unidad)
 
+![image](https://user-images.githubusercontent.com/25083316/168462611-b130df80-01ff-407d-a139-a09570b2db9a.png)
+
 - **services/db.js:** Servicio que se conecta con la base de datos que contiene la información de los animales y realiza la consulta proporcionada por el módulo anterior.
+
+![image](https://user-images.githubusercontent.com/25083316/168462626-dcec1595-ca76-4969-87e4-c6a84e9ce712.png)
 
 # Escalabilidad
 

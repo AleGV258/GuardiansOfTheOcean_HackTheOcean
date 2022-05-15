@@ -6,7 +6,7 @@ function getMultiple() {
 }
 
 function getAnimal(animal){
-    const data = db.query(`SELECT * FROM AnimalesMarinos where Nombre='${animal}'`)
+    const data = db.query(`SELECT * FROM AnimalesMarinos WHERE Nombre='${animal}'`)
     return data
 }
 

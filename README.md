@@ -72,3 +72,9 @@ graph TD
 - **services/animales.js:** Servicio que nos provee de funciones cuyo objetivo es realizar consultas SQL a la base de datos. Contiene dos funciones que acceden a la DB y devuelven la información solicitada por los dos endpoints de la API (este módulo es el que se testea en las Pruebas de Unidad)
 
 - **services/db.js:** Servicio que se conecta con la base de datos que contiene la información de los animales y realiza la consulta proporcionada por el módulo anterior.
+
+# Escalabilidad
+
+Se busca que la base de datos pueda ser actualizada con nuevas especies por medio de nuevos endpoints que permitan el manejo del gestor de base de datos. Para ello, se buscaría dotar a la plataforma de usuarios autorizados que pudieran realizar dichas consultas.
+
+Esto con el objetivo de que la REST API pueda ser pública y de libre acceso para cualquiera que requiera de dicha información, ya que se trata de datos reales y crudos sobre la realidad que vive la naturaleza marina actualmente, y que podrían servir para crear conciencia en los demás por medio de otros productos, es decir, que no se quede solo en nuestro sitio web.

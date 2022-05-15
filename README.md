@@ -69,7 +69,7 @@ La siguiente es una lista de animales que han sido incluidos en dicha base de da
 
 El objetivo de la REST API a desarrollar es la de poner a disposición del Frontend la información contenida en la base de datos sobre los diferentes animales en peligro de extinción, cuyos datos se describieron en el apartado anterior.
 
-1. Módulos
+1. Dependencias
 
 El desarrollo se hará por medio de NodeJS con ayuda de los siguientes módulos:
 

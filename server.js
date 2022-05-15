@@ -20,7 +20,7 @@ const animalesRouter = require('./public/app/routes/Animales');
 
 const cors = require("cors");
 const corsOptions = {
-    origin: "http://localhost:8081"
+    origin: "https://guardiansoftheocean.netlify.app"
 };
 app.use(cors(corsOptions));
 

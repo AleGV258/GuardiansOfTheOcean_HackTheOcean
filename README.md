@@ -101,6 +101,18 @@ graph TD
 
 ![image](https://user-images.githubusercontent.com/25083316/168462626-dcec1595-ca76-4969-87e4-c6a84e9ce712.png)
 
+# Pruebas del funcionamiento del Backend
+
+Se corrobora el primer endpoint de la REST API, el cual devuelve toda la información contenida en la base de datos sobre los animales:
+
+![image](https://user-images.githubusercontent.com/25083316/168462948-09f29229-8ad9-46c1-a3ee-e843945880da.png)
+
+Y por último, se corrobora el segundo endpoint, el cual permite extraer toda la información únicamente del animal que se haya solicitado en la petición por medio de la URL. Ejemplo: `http://localhost:3000/HackTheOcean/Ajolote%20Mexicano`
+
+![image](https://user-images.githubusercontent.com/25083316/168462986-4d82555f-23b4-44bb-a800-2ebc5df0474c.png)
+
+Para corroborar el funcionamiento de la API, se proporciona la siguiente colección de Postman: [HackTheOcean.zip](https://github.com/AleGV258/GuardiansOfTheOcean_HackTheOcean_Back/files/8694514/HackTheOcean.zip)
+
 # Escalabilidad
 
 Se busca que la base de datos pueda ser actualizada con nuevas especies por medio de nuevos endpoints que permitan el manejo del gestor de base de datos. Para ello, se buscaría dotar a la plataforma de usuarios autorizados que pudieran realizar dichas consultas.

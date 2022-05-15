@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const animales = require('../services/animales');
+const animales = require('./../services/Animales');
 
 router.get('/', function(req, res, next) {
   try {

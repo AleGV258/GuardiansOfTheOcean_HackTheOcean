@@ -1,4 +1,4 @@
-const db = require('../services/db');
+const db = require('./../services/db');
 
 function getMultiple() {
     const data = db.query(`SELECT * FROM AnimalesMarinos`);

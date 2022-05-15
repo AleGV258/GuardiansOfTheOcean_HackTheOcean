@@ -44,6 +44,27 @@ El objetivo de la base de datos es almacenar información relacionada con las di
 | CausaDePeligro | String |
 | LinkImagen | String |
 
+La siguiente es una lista de animales que han sido incluidos en dicha base de datos para su consulta por medio de la API (para poder ver toda la información de cada uno de ellos, consultar directamente la API):
+
+- Pez Totoaba
+- Tortuga Carey
+- Vaquita Marina
+- Ballena Azul
+- Tortuga Lora
+- León Marino de Steller
+- Tiburón Martillo Gigante
+- Rorcual Común
+- Delfín de Cabeza Blanca
+- Foca Monje de Hawaii
+- Tortuga Verde
+- Ajolote Mexicano
+- Rana Dorada de Panamá
+- Esturión Común
+- Anguila Europea
+- Tiburón del Ganges
+- Trucha Apache
+- Atún Rojo del Sur
+
 # REST API
 
 El objetivo de la REST API a desarrollar es la de poner a disposición del Frontend la información contenida en la base de datos sobre los diferentes animales en peligro de extinción, cuyos datos se describieron en el apartado anterior.

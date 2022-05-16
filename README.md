@@ -22,7 +22,7 @@ El servicio de backend tiene como propósito dotar de información al frontend a
 
 1. Clona este repositorio en tu máquina:
 
-`git clone ttps://github.com/AleGV258/GuardiansOfTheOcean_HackTheOcean_Back`
+`git clone https://github.com/AleGV258/GuardiansOfTheOcean_HackTheOcean_Back`
 
 2. Estando dentro de la carpeta, ejecuta el siguiente comando para instalar las dependencias:
 

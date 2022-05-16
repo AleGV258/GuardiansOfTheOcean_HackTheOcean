@@ -4,6 +4,8 @@ El repositorio del frontend puede visualizarse mediante [este enlace](https://gi
 
 El despliegue de este aplicativo puede visitarse en el siguiente enlace: [https://animales-api.herokuapp.com/](https://animales-api.herokuapp.com/).
 
+La documentación completa de este proyecto en su totalidad puede ser consultada mediante el [siguiente enlace](https://bit.ly/3yJOCR3).
+
 # Problemática central
 
 Los océanos conforman más del 70% de la superficie de la Tierra, sin embargo, son uno de los hábitats menos investigados por el ser humano. Esto ha provocado que exista una indiferencia hacia la fauna y flora que habita en este lugar, y sobre todo a su conservación y preservación. Actualmente existen cerca de 250,000 especies conocidas que surcan los mares, sin embargo, informes de la Unión Internacional para la Conservación de la Naturaleza estiman que, en la actualidad, se tienen 181 especies marinas que, por desgracia, han desaparecido de la faz de la Tierra; ya sea por cuestiones naturales o por intervención humana, lo cierto es que esta última es la causa en la mayoría de los casos de especies en peligro de sufrir este terrible destino.
